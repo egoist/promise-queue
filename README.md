@@ -1,17 +1,17 @@
-# @egoist/promise-quene
+# @egoist/promise-queue
 
-[![NPM version](https://badgen.net/npm/v/@egoist/promise-quene)](https://npmjs.com/package/@egoist/promise-quene) [![NPM downloads](https://badgen.net/npm/dm/@egoist/promise-quene)](https://npmjs.com/package/@egoist/promise-quene) [![CircleCI](https://badgen.net/circleci/github/egoist/promise-quene/master)](https://circleci.com/gh/egoist/promise-quene/tree/master) [![donate](https://badgen.net/badge/support%20me/donate/ff69b4)](https://github.com/sponsors/egoist)
+[![NPM version](https://badgen.net/npm/v/@egoist/promise-queue)](https://npmjs.com/package/@egoist/promise-queue) [![NPM downloads](https://badgen.net/npm/dm/@egoist/promise-queue)](https://npmjs.com/package/@egoist/promise-queue) [![CircleCI](https://badgen.net/circleci/github/egoist/promise-queue/master)](https://circleci.com/gh/egoist/promise-queue/tree/master) [![donate](https://badgen.net/badge/support%20me/donate/ff69b4)](https://github.com/sponsors/egoist)
 
 ## Install
 
 ```bash
-yarn add @egoist/promise-quene
+yarn add @egoist/promise-queue
 ```
 
 ## Usage
 
 ```js
-const { PromiseQueue } = require('@egoist/promise-quene')
+const { PromiseQueue } = require('@egoist/promise-queue')
 
 const processor = async (jobId, resolution, format) => {
   // run job
@@ -38,7 +38,7 @@ await queue.run()
 
 ## Author
 
-**@egoist/promise-quene** © [EGOIST](https://github.com/egoist), Released under the [MIT](./LICENSE) License.<br>
-Authored and maintained by EGOIST with help from contributors ([list](https://github.com/egoist/@egoist/promise-quene/contributors)).
+**@egoist/promise-queue** © [EGOIST](https://github.com/egoist), Released under the [MIT](./LICENSE) License.<br>
+Authored and maintained by EGOIST with help from contributors ([list](https://github.com/egoist/@egoist/promise-queue/contributors)).
 
 > [github.com/egoist](https://github.com/egoist) · GitHub [@EGOIST](https://github.com/egoist) · Twitter [@\_egoistlily](https://twitter.com/_egoistlily)

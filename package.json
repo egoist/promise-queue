@@ -1,5 +1,5 @@
 {
-  "name": "@egoist/promise-quene",
+  "name": "@egoist/promise-queue",
   "version": "0.0.0",
   "description": "Promise-based queue for async jobs",
   "publishConfig": {
@@ -15,7 +15,7 @@
     "prepublishOnly": "npm run build"
   },
   "repository": {
-    "url": "egoist/promise-quene",
+    "url": "egoist/promise-queue",
     "type": "git"
   },
   "author": "egoist<0x142857@gmail.com>",
