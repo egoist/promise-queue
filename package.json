@@ -7,7 +7,9 @@
   },
   "main": "dist/index.js",
   "files": [
-    "dist"
+    "dist",
+    "mod.ts",
+    "src/index.ts"
   ],
   "scripts": {
     "test": "ava",

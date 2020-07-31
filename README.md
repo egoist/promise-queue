@@ -4,11 +4,27 @@
 
 ## Install
 
+For Node.js / Yarn:
+
 ```bash
 yarn add @egoist/promise-queue
 ```
 
+For Node.js / NPM:
+
+```bash
+npm i @egoist/promise-queue
+```
+
+For Deno:
+
+```ts
+import { PromiseQueue } from 'https://unpkg.com/@egoist/promise-queue/mod.ts'
+```
+
 ## Usage
+
+Example using Node.js CommonJS `require`:
 
 ```js
 const { PromiseQueue } = require('@egoist/promise-queue')
@@ -27,6 +43,10 @@ queue.add('process-video-id-xxxx', '720p', 'mp4')
 // Resolves a Set of processed job ids
 await queue.run()
 ```
+
+## TypeDoc
+
+https://doc.deno.land/https/raw.githubusercontent.com/egoist/promise-queue/master/src/index.ts
 
 ## Contributing
 
