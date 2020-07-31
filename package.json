@@ -1,0 +1,50 @@
+{
+  "name": "@egoist/promise-quene",
+  "version": "0.0.0",
+  "description": "Promise-based queue for async jobs",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "ava",
+    "build": "tsup src/index.ts --dts",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "url": "egoist/promise-quene",
+    "type": "git"
+  },
+  "author": "egoist<0x142857@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@egoist/prettier-config": "^0.1.0",
+    "ava": "^3.11.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5",
+    "tsup": "^3.4.2",
+    "typescript": "^3.9.7"
+  },
+  "ava": {
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "sucrase/register"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,js,json,md}": [
+      "prettier --write"
+    ]
+  }
+}
